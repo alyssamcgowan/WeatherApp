@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/1558815/Lab11/app/src/main/res/drawable/gradient.xml" value="0.17685185185185184" />
-        <entry key="..\:/Users/1558815/Lab11/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/1558815/Lab11/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/1558815/Lab11/app/src/main/res/layout/dayweather.xml" value="0.1" />
         <entry key="..\:/Users/1558815/Lab11/app/src/main/res/layout/gradient.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/1558815/Lab11/app/src/main/res/layout/hourlyweather.xml" value="0.5" />
       </map>
     </option>
   </component>

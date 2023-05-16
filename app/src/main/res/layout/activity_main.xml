@@ -16,7 +16,6 @@
         android:background="@drawable/gradient"
         />
 
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/center"
         android:layout_width="match_parent"
@@ -52,14 +51,67 @@
         android:id="@+id/description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="lorem ipsum something something idk i just need this text to be long enough to take more than one line"
+        android:text="description"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/temperature"
         android:gravity="center"
         android:textColor="#ffffff"
         android:paddingLeft="100px"
-        android:paddingRight="100px"/>
+        android:paddingRight="100px"
+        android:paddingTop="40px"
+        android:background="#5C8E9FB3"/>
 
+    <TextView
+        android:id="@+id/hourtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hourly"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/description"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:paddingTop="60px"
+        android:background="#5C8E9FB3"/>
+
+    <HorizontalScrollView
+        android:id="@+id/hourlyScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hourtitle"
+        android:background="#5C8E9FB3"
+        android:paddingTop="20px"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        android:paddingBottom="50px">
+
+        <LinearLayout
+            android:id="@+id/hourlyll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hourlyScrollView"
+        android:background="#5C8E9FB3"
+        android:paddingLeft="20px"
+        android:paddingRight="20px">
+        <LinearLayout
+            android:id="@+id/tenday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+    </ScrollView>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
